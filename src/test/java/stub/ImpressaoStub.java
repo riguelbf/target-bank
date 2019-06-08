@@ -21,11 +21,11 @@ public class ImpressaoStub {
     }
 
     public static String cabecalho() {
-        return  "************ Target Bank ************\n";
+        return "************ Target Bank ************\n";
     }
 
     public static String rodape() {
-        return  "*************************************";
+        return "*************************************";
     }
 
     public static String dadosCliente() {
@@ -37,11 +37,26 @@ public class ImpressaoStub {
     public static String telaLogin() {
         return
                 "************ Target Bank ************\n" +
+                        "\n" +
+                        "Agencia: \n" +
+                        "Conta:\n" +
+                        "Senha:\n" +
+                        "\n" +
+                        "*************************************";
+    }
+
+    public static String telaExtrato() {
+        return "************ Target Bank ************\n" +
+                "Nome: Zezinho \n" +
+                "Ag: 2603\n" +
+                "Cc: 1647\n" +
+                "*************************************\n" +
+                "Extrato\n" +
                 "\n" +
-                "Agencia: \n" +
-                "Conta:\n" +
-                "Senha:\n" +
-                "\n" +
+                "Paqueta = -50.0\n" +
+                "Deposito = +25.0\n" +
+                "Saque = -120.0\n" +
+                "\nSaldo atual = -145.0\n" +
                 "*************************************";
     }
 }

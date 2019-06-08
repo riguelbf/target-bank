@@ -1,17 +1,21 @@
 public class Login {
 
-    public boolean realizarLogin(int agencia
+    public Correntista realizarLogin(int agencia
             , long numeroConta
             , int senha) {
 
-        Correntista correntista = BancoDeDados.getCorrentistas().get(0);
+        Correntista correntista = BancoDeDados.getCorrentistas()
+                .stream()
+                .filter(correntistaItem -> agencia == correntistaItem.getConta().getAgencia()
+                        && numeroConta == correntistaItem.getConta().getNumero()
+                        && senha == correntistaItem.getSenha())
+                .findFirst()
+                .get();
 
-        if(agencia == correntista.getConta().getAgencia()
-                && numeroConta == correntista.getConta().getNumero()
-                && senha == correntista.getSenha()){
-            return true;
+        if(correntista != null){
+            return correntista;
         }else {
-            return false;
+            return null;
         }
     }
 }

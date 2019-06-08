@@ -30,10 +30,10 @@ public class LoginTest {
         Login login = new Login();
 
         // Acao
-        boolean loginSucesso = login.realizarLogin(agencia, numeroConta, senha);
+        Correntista correntistaLogin = login.realizarLogin(agencia, numeroConta, senha);
 
         // Validacao
-        assertTrue(loginSucesso);
+        assertTrue(correntistaLogin != null);
     }
 
 

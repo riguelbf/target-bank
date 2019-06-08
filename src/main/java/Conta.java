@@ -1,6 +1,9 @@
+import java.util.List;
+
 public class Conta {
     private long numero;
     private int agencia;
+    private List<Movimento> movimentos;
 
     public Conta(long numeroContaCorrentista, int agenciaCorrentista) {
         this.numero = numeroContaCorrentista;
@@ -13,5 +16,13 @@ public class Conta {
 
     public int getAgencia() {
         return this.agencia;
+    }
+
+    public List<Movimento> getMovimentos() {
+        return this.movimentos;
+    }
+
+    public void setMovimentos(List<Movimento> movimentos) {
+        this.movimentos = movimentos;
     }
 }

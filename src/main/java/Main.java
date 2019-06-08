@@ -18,16 +18,41 @@ public class Main {
 
         Login login = new Login();
 
-        boolean realizouLoginComSucesso = login.realizarLogin(agencia, conta, senha);
+        Correntista correntistaComSucesso = login.realizarLogin(agencia, conta, senha);
 
-        if(realizouLoginComSucesso){
+        if (correntistaComSucesso != null) {
             ImpressaoConteudoInterface telaOpcao = new ImpressaoConteudoTelaOpcao();
             String telaOpcaoScreen = impressao.imprimirTela(telaOpcao);
             System.out.println(telaOpcaoScreen);
 
-        }else {
+            OpcaoMenu opcaoSelecionada = OpcaoMenu.fromInteger(scanner.nextInt());
+
+            switch (opcaoSelecionada) {
+                case Extrato:
+                    System.out.println(
+                            impressao.imprimirTela(
+                                    correntistaComSucesso.getNome(),
+                                    correntistaComSucesso.getConta().getAgencia(),
+                                    correntistaComSucesso.getConta().getNumero(),
+                                    new ImpressaoConteudoTelaExtato(correntistaComSucesso.getConta().getMovimentos())
+                            )
+                    );
+                    break;
+                case Saldo:
+                    //impressao.imprimirTela();
+                    break;
+                case Deposito:
+                    break;
+                case Saque:
+                    break;
+                case Pagamentos:
+                    break;
+                default:
+                    System.out.println("Opção inválida");
+            }
+
+        } else {
             System.out.println("Usuario e/ou senha incorretos");
         }
-
     }
 }

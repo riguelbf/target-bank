@@ -9,6 +9,7 @@ public class Impressao {
                         this.imprimirDadosCliente(nomeCorrentista, agencia, numeroConta) +
                         "\n*************************************\n" +
                         imprimirConteudo.imprimir() +
+                        "\n" +
                         this.imprimirRodape();
 
         return telaOpcao;
