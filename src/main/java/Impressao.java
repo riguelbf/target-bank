@@ -1,6 +1,9 @@
 public class Impressao {
 
-    public String imprimirTela(String nomeCorrentista, int agencia, long numeroConta, ImpressaoConteudoInterface imprimirConteudo) {
+    public String imprimirTela(String nomeCorrentista
+            , int agencia
+            , long numeroConta
+            , ImpressaoConteudoInterface imprimirConteudo) {
         String telaOpcao =
                 this.imprimirCabecalho() +
                         this.imprimirDadosCliente(nomeCorrentista, agencia, numeroConta) +
