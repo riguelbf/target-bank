@@ -1,3 +1,11 @@
+import apresentacao.services.impressao.Impressao;
+import apresentacao.services.impressao.ImpressaoConteudoInterface;
+import apresentacao.services.impressao.ImpressaoConteudoTelaExtato;
+import apresentacao.services.impressao.ImpressaoConteudoTelaLogin;
+import apresentacao.services.impressao.ImpressaoConteudoTelaOpcao;
+import dominio.model.Conta;
+import dominio.model.Correntista;
+import dominio.model.Movimento;
 import org.junit.Before;
 import org.junit.Test;
 import stub.ImpressaoStub;

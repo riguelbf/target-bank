@@ -1,3 +1,8 @@
+package dominio.services;
+
+import dominio.model.Correntista;
+import infra.repositories.BancoDeDados;
+
 public class Login {
 
     public Correntista realizarLogin(int agencia

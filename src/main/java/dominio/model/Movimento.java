@@ -1,3 +1,5 @@
+package dominio.model;
+
 public class Movimento {
     private String descricao;
     private String tipo;

@@ -1,3 +1,5 @@
+package apresentacao.services.enums;
+
 public enum OpcaoMenu {
     Extrato,
     Saldo,

@@ -1,4 +1,7 @@
-import java.text.DecimalFormat;
+package apresentacao.services.impressao;
+
+import dominio.model.Movimento;
+
 import java.util.List;
 
 public class ImpressaoConteudoTelaExtato implements ImpressaoConteudoInterface {

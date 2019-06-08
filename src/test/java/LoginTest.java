@@ -1,3 +1,7 @@
+import dominio.model.Conta;
+import dominio.model.Correntista;
+import dominio.services.Login;
+import infra.services.CargaInicial;
 import org.junit.Before;
 import org.junit.Test;
 

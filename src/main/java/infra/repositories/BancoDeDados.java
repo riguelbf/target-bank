@@ -1,3 +1,7 @@
+package infra.repositories;
+
+import dominio.model.Correntista;
+
 import java.util.ArrayList;
 
 public class BancoDeDados {
@@ -5,7 +9,7 @@ public class BancoDeDados {
 
     public static ArrayList<Correntista> getCorrentistas(){
         if(correntistas == null){
-            correntistas = new ArrayList<Correntista>();
+            correntistas = new ArrayList<>();
         }
 
         return correntistas;

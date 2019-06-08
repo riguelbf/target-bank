@@ -39,7 +39,7 @@ public class ImpressaoStub {
                 "************ Target Bank ************\n" +
                         "\n" +
                         "Agencia: \n" +
-                        "Conta:\n" +
+                        "dominio.model.Conta:\n" +
                         "Senha:\n" +
                         "\n" +
                         "*************************************";

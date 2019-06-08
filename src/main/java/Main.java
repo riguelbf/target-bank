@@ -1,3 +1,13 @@
+import apresentacao.services.enums.OpcaoMenu;
+import apresentacao.services.impressao.Impressao;
+import apresentacao.services.impressao.ImpressaoConteudoInterface;
+import apresentacao.services.impressao.ImpressaoConteudoTelaExtato;
+import apresentacao.services.impressao.ImpressaoConteudoTelaLogin;
+import apresentacao.services.impressao.ImpressaoConteudoTelaOpcao;
+import dominio.model.Correntista;
+import dominio.services.Login;
+import infra.services.CargaInicial;
+
 import java.util.Scanner;
 
 public class Main {

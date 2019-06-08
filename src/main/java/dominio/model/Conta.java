@@ -1,3 +1,5 @@
+package dominio.model;
+
 import java.util.List;
 
 public class Conta {

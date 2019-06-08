@@ -1,3 +1,5 @@
+package apresentacao.services.impressao;
+
 public class ImpressaoConteudoTelaOpcao implements ImpressaoConteudoInterface{
     @Override
     public String imprimir() {

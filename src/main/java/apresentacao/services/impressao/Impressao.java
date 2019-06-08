@@ -1,3 +1,5 @@
+package apresentacao.services.impressao;
+
 public class Impressao {
 
     public String imprimirTela(String nomeCorrentista

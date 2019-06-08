@@ -1,3 +1,10 @@
+package infra.services;
+
+import dominio.model.Conta;
+import dominio.model.Correntista;
+import dominio.model.Movimento;
+import infra.repositories.BancoDeDados;
+
 import java.util.List;
 
 import static java.util.Arrays.asList;

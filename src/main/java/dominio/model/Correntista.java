@@ -1,3 +1,5 @@
+package dominio.model;
+
 public class Correntista {
 
     private Conta conta;
