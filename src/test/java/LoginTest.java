@@ -1,4 +1,3 @@
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -22,7 +21,7 @@ public class LoginTest {
 
         Correntista correntista =
                 new Correntista(new Conta(numeContaCorrentista, agenciaCorrentista)
-                        , senhaCorrentista);
+                        , senhaCorrentista, "Zezinho");
 
         Conta conta = correntista.getConta();
         long numeroConta = conta.getNumero();

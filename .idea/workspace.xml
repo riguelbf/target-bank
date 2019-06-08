@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b152ad0-d5b3-472f-a4d3-717d9145a178" name="Default Changelist" comment="" />
+    <list default="true" id="4b152ad0-d5b3-472f-a4d3-717d9145a178" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CargaInicial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CargaInicial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Correntista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Correntista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Impressao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Impressao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ImpressaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImpressaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stub/ImpressaoStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stub/ImpressaoStub.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -39,22 +48,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BancoDeDados.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ImpressaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            <state relative-caret-position="247">
+              <caret line="84" column="43" lean-forward="true" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#deve_imprimir_cabecalho#0;class#ImpressaoTest#0" />
+                <element signature="method#deve_imprimir_rodape#0;class#ImpressaoTest#0" />
+                <element signature="method#deve_imprimir_dados_cliente#0;class#ImpressaoTest#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ImpressaoTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ImpressaoConteudoTelaLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ImpressaoConteudoInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -62,8 +83,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stub/ImpressaoStub.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="291">
+              <caret line="44" column="56" selection-start-line="37" selection-start-column="7" selection-end-line="44" selection-end-column="56" />
+              <folding>
+                <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,44 +96,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Impressao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Conta.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Correntista.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="236">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <folding>
+                <element signature="method#imprimirDadosCliente#0;class#Impressao#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,9 +110,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -130,15 +126,20 @@
         <option value="$PROJECT_DIR$/src/test/java/PessoaTEst.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/BancoDeDados.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Conta.java" />
         <option value="$PROJECT_DIR$/src/main/java/Login.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Correntista.java" />
         <option value="$PROJECT_DIR$/src/main/java/CargaInicial.java" />
         <option value="$PROJECT_DIR$/src/main/java/InputDados.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Conta.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Correntista.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stub/CorrentistaStub.java" />
         <option value="$PROJECT_DIR$/src/test/java/stub/ImpressaoStub.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ImpressaoConteudo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ImpressaoConteudoInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ImpressaoConteudoTelaOpcao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ImpressaoConteudoTelaLogin.java" />
         <option value="$PROJECT_DIR$/src/test/java/ImpressaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Impressao.java" />
       </list>
@@ -149,6 +150,9 @@
     <option name="y" value="20" />
     <option name="width" value="1260" />
     <option name="height" value="640" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -194,6 +198,14 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="target-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="target-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stub" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -202,7 +214,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559997499212" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560004541956" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
@@ -222,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ImpressaoTest.deve_imprimir_tela_opcoes">
+  <component name="RunManager" selected="JUnit.ImpressaoTest.deve_imprimir_tela_login">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="target-tests_main" />
@@ -230,24 +242,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="target-tests [myFirstTaks]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="myFirstTaks" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="ImpressaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="target-tests_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ImpressaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImpressaoTest.deve_imprimir_cabecalho" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="target-tests_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ImpressaoTest" />
+      <option name="METHOD_NAME" value="deve_imprimir_cabecalho" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImpressaoTest.deve_imprimir_tela_login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="target-tests_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ImpressaoTest" />
+      <option name="METHOD_NAME" value="deve_imprimir_tela_login" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ImpressaoTest.deve_imprimir_tela_opcoes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="target-tests_test" />
@@ -259,33 +281,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.deve_realizar_login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="target-tests_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTest" />
-      <option name="METHOD_NAME" value="deve_realizar_login" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PessoaTEst.deve_salvar_pessoa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="target-tests_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PessoaTEst" />
-      <option name="METHOD_NAME" value="deve_salvar_pessoa" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ImpressaoTest.deve_imprimir_tela_login" />
         <item itemvalue="JUnit.ImpressaoTest.deve_imprimir_tela_opcoes" />
+        <item itemvalue="JUnit.ImpressaoTest" />
+        <item itemvalue="JUnit.ImpressaoTest.deve_imprimir_cabecalho" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.LoginTest.deve_realizar_login" />
-        <item itemvalue="JUnit.PessoaTEst.deve_salvar_pessoa" />
-        <item itemvalue="Gradle.target-tests [myFirstTaks]" />
       </list>
     </recent_temporary>
   </component>
@@ -303,35 +305,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest_deve_realizar_login - 2019.06.01 at 16h 23m 04s.xml">
-      <configuration name="LoginTest.deve_realizar_login" configurationId="JUnit" />
+    <history-entry file="ImpressaoTest_deve_imprimir_tela_login - 2019.06.08 at 11h 09m 59s.xml">
+      <configuration name="ImpressaoTest.deve_imprimir_tela_login" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_deve_realizar_login - 2019.06.01 at 16h 27m 46s.xml">
-      <configuration name="LoginTest.deve_realizar_login" configurationId="JUnit" />
+    <history-entry file="ImpressaoTest_deve_imprimir_tela_login - 2019.06.08 at 11h 11m 13s.xml">
+      <configuration name="ImpressaoTest.deve_imprimir_tela_login" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_deve_realizar_login - 2019.06.01 at 16h 28m 41s.xml">
-      <configuration name="LoginTest.deve_realizar_login" configurationId="JUnit" />
+    <history-entry file="ImpressaoTest_deve_imprimir_tela_login - 2019.06.08 at 11h 12m 39s.xml">
+      <configuration name="ImpressaoTest.deve_imprimir_tela_login" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_deve_realizar_login - 2019.06.01 at 17h 06m 20s.xml">
-      <configuration name="LoginTest.deve_realizar_login" configurationId="JUnit" />
+    <history-entry file="ImpressaoTest_deve_imprimir_tela_login - 2019.06.08 at 11h 13m 27s.xml">
+      <configuration name="ImpressaoTest.deve_imprimir_tela_login" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_deve_realizar_login - 2019.06.01 at 17h 07m 03s.xml">
-      <configuration name="LoginTest.deve_realizar_login" configurationId="JUnit" />
+    <history-entry file="ImpressaoTest - 2019.06.08 at 11h 13m 37s.xml">
+      <configuration name="ImpressaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ImpressaoTest_deve_imprimir_tela_opcoes - 2019.06.08 at 09h 04m 01s.xml">
-      <configuration name="ImpressaoTest.deve_imprimir_tela_opcoes" configurationId="JUnit" />
+    <history-entry file="ImpressaoTest_deve_imprimir_cabecalho - 2019.06.08 at 11h 13m 49s.xml">
+      <configuration name="ImpressaoTest.deve_imprimir_cabecalho" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ImpressaoTest_deve_imprimir_tela_opcoes - 2019.06.08 at 09h 04m 44s.xml">
-      <configuration name="ImpressaoTest.deve_imprimir_tela_opcoes" configurationId="JUnit" />
+    <history-entry file="ImpressaoTest_deve_imprimir_cabecalho - 2019.06.08 at 11h 14m 35s.xml">
+      <configuration name="ImpressaoTest.deve_imprimir_cabecalho" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ImpressaoTest_deve_imprimir_tela_opcoes - 2019.06.08 at 09h 07m 13s.xml">
-      <configuration name="ImpressaoTest.deve_imprimir_tela_opcoes" configurationId="JUnit" />
+    <history-entry file="ImpressaoTest - 2019.06.08 at 11h 14m 45s.xml">
+      <configuration name="ImpressaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ImpressaoTest_deve_imprimir_tela_opcoes - 2019.06.08 at 09h 33m 15s.xml">
-      <configuration name="ImpressaoTest.deve_imprimir_tela_opcoes" configurationId="JUnit" />
+    <history-entry file="ImpressaoTest_deve_imprimir_tela_login - 2019.06.08 at 11h 31m 32s.xml">
+      <configuration name="ImpressaoTest.deve_imprimir_tela_login" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ImpressaoTest_deve_imprimir_tela_opcoes - 2019.06.08 at 09h 34m 53s.xml">
-      <configuration name="ImpressaoTest.deve_imprimir_tela_opcoes" configurationId="JUnit" />
+    <history-entry file="ImpressaoTest_deve_imprimir_tela_login - 2019.06.08 at 11h 35m 04s.xml">
+      <configuration name="ImpressaoTest.deve_imprimir_tela_login" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -347,7 +349,7 @@
     <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17799352" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17718446" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -356,12 +358,43 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37588653" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32446808" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38398692" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.43464053" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3067376" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32843137" />
+      <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.24836601" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.13829787" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.32928804" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17718446" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32446808" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38398692" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3067376" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32843137" />
@@ -376,7 +409,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -443,38 +476,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BancoDeDados.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Conta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Correntista.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -490,27 +495,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stub/ImpressaoStub.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Correntista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Conta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stub/CorrentistaStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Login.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stub/ImpressaoStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="44" column="56" selection-start-line="37" selection-start-column="7" selection-end-line="44" selection-end-column="56" />
+          <folding>
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImpressaoConteudoInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImpressaoConteudoTelaOpcao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImpressaoConteudoTelaLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ImpressaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        <state relative-caret-position="247">
+          <caret line="84" column="43" lean-forward="true" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#deve_imprimir_cabecalho#0;class#ImpressaoTest#0" />
+            <element signature="method#deve_imprimir_rodape#0;class#ImpressaoTest#0" />
+            <element signature="method#deve_imprimir_dados_cliente#0;class#ImpressaoTest#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Impressao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="236">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="method#imprimirDadosCliente#0;class#Impressao#0" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,21 +1,37 @@
 public class Impressao {
-    public String telaOpcao() {
-        String telaOpcao = "######## 2# Tela inicial\n" +
-                "************ Target Bank ************\n" +
-                "Nome: Zezinho Trust\n" +
-                "Ag: XXX\n" +
-                "Cc: XXX\n" +
-                "*************************************\n" +
-                "Opcoes\n" +
-                "\n" +
-                "1 - Extrato\n" +
-                "2 - Saldo\n" +
-                "3 - Deposito\n" +
-                "4 - Saque\n" +
-                "5 - Pagamentos\n" +
-                "\n" +
-                "*************************************";
+
+    public String imprimirTela(String nomeCorrentista, int agencia, long numeroConta, ImpressaoConteudoInterface imprimirConteudo) {
+        String telaOpcao =
+                this.imprimirCabecalho() +
+                        this.imprimirDadosCliente(nomeCorrentista, agencia, numeroConta) +
+                        "\n*************************************\n" +
+                        imprimirConteudo.imprimir() +
+                        this.imprimirRodape();
 
         return telaOpcao;
+    }
+
+    public String imprimirTela(ImpressaoConteudoInterface imprimirConteudo) {
+        String telaOpcao =
+                this.imprimirCabecalho()
+                        + imprimirConteudo.imprimir()
+                        + this.imprimirRodape();
+
+        return telaOpcao;
+    }
+
+    public String imprimirCabecalho() {
+        String cabecalho = "************ Target Bank ************\n";
+        return cabecalho;
+    }
+
+    public String imprimirRodape() {
+        return "*************************************";
+    }
+
+    public String imprimirDadosCliente(String nome, int agencia, long numero) {
+        return "Nome: " + nome + " \n" +
+                "Ag: " + agencia + "\n" +
+                "Cc: " + numero;
     }
 }

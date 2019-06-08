@@ -2,8 +2,8 @@ public class Conta {
     private long numero;
     private int agencia;
 
-    public Conta(long numeContaCorrentista, int agenciaCorrentista) {
-        this.numero = numeContaCorrentista;
+    public Conta(long numeroContaCorrentista, int agenciaCorrentista) {
+        this.numero = numeroContaCorrentista;
         this.agencia = agenciaCorrentista;
     }
 

@@ -4,11 +4,10 @@ public class ImpressaoStub {
 
     public static String telaOpcao() {
 
-        return "######## 2# Tela inicial\n" +
-                "************ Target Bank ************\n" +
-                "Nome: Zezinho Trust\n" +
-                "Ag: XXX\n" +
-                "Cc: XXX\n" +
+        return "************ Target Bank ************\n" +
+                "Nome: Zezinho \n" +
+                "Ag: 2603\n" +
+                "Cc: 1647\n" +
                 "*************************************\n" +
                 "Opcoes\n" +
                 "\n" +
@@ -17,6 +16,31 @@ public class ImpressaoStub {
                 "3 - Deposito\n" +
                 "4 - Saque\n" +
                 "5 - Pagamentos\n" +
+                "\n" +
+                "*************************************";
+    }
+
+    public static String cabecalho() {
+        return  "************ Target Bank ************\n";
+    }
+
+    public static String rodape() {
+        return  "*************************************";
+    }
+
+    public static String dadosCliente() {
+        return "Nome: Zezinho \n" +
+                "Ag: 2603\n" +
+                "Cc: 1647";
+    }
+
+    public static String telaLogin() {
+        return
+                "************ Target Bank ************\n" +
+                "\n" +
+                "Agencia: \n" +
+                "Conta:\n" +
+                "Senha:\n" +
                 "\n" +
                 "*************************************";
     }
